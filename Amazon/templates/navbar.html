@@ -1,0 +1,194 @@
+{% comment %} {% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Navbar</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="logo">
+
+            <img src="{% static 'images/amazon_logo.png' %}"alt="Amazon Logo">
+
+        </div>
+
+        <div class="location_box">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+
+                <div class="text_small">
+                    Deliver to Rohit
+                </div>
+
+                <div class="text_update">
+                    New Delhi 110032
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="search_box">
+
+            <select>
+
+                <option>All</option>
+
+            </select>
+
+            <input type="text" placeholder="Search Amazon.in">
+
+            <button>
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </button>
+
+        </div>
+
+    </header>
+
+</body>
+
+</html> {% endcomment %}
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Navbar</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+</head>
+
+
+<body>
+
+<header>
+
+    <!-- AMAZON LOGO -->
+    <div class="logo">
+        <img src="{% static 'images/amazon_logo.png' %}" alt="Amazon Logo">
+    </div>
+
+
+    <!-- LOCATION -->
+    <div class="location_box">
+
+        <i class="fa-solid fa-location-dot"></i>
+
+        <div>
+            <div class="text_small">
+                Deliver to Manali
+            </div>
+
+            <div class="text_update">
+                New Delhi 110032
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- SEARCH BAR -->
+    <div class="search_box">
+
+        <select>
+            <option>All</option>
+        </select>
+
+        <input type="text" placeholder="Search Amazon.in">
+
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+
+    <!-- LANGUAGE -->
+    <div class="language_box">
+
+        <span class="flag">🇮🇳</span>
+
+        <span>EN</span>
+
+        <i class="fa-solid fa-caret-down"></i>
+
+    </div>
+
+
+    <!-- ACCOUNT -->
+    <div class="account_box">
+
+        <div class="text_small">
+            Hello, Rohit
+        </div>
+
+        <div class="account_text">
+            Account & Lists
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+
+    </div>
+
+
+    <!-- RETURNS AND ORDERS -->
+    <div class="orders_box">
+
+        <div class="text_small">
+            Returns
+        </div>
+
+        <div class="orders_text">
+            & Orders
+        </div>
+
+    </div>
+
+
+    <!-- CART -->
+    <div class="cart_box">
+
+        <div class="cart_icon">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <span class="cart_number">3</span>
+
+        </div>
+
+        <span class="cart_text">Cart</span>
+
+    </div>
+
+</header>
+
+</body>
+</html>
