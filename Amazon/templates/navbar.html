@@ -1,75 +1,4 @@
-{% comment %} {% load static %}
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Amazon Navbar</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
-
-</head>
-
-
-<body>
-
-    <header>
-
-        <div class="logo">
-
-            <img src="{% static 'images/amazon_logo.png' %}"alt="Amazon Logo">
-
-        </div>
-
-        <div class="location_box">
-
-            <i class="fa-solid fa-location-dot"></i>
-
-            <div>
-
-                <div class="text_small">
-                    Deliver to Rohit
-                </div>
-
-                <div class="text_update">
-                    New Delhi 110032
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="search_box">
-
-            <select>
-
-                <option>All</option>
-
-            </select>
-
-            <input type="text" placeholder="Search Amazon.in">
-
-            <button>
-
-                <i class="fa-solid fa-magnifying-glass"></i>
-
-            </button>
-
-        </div>
-
-    </header>
-
-</body>
-
-</html> {% endcomment %}
-
+{% comment %} 
 {% load static %}
 
 <!DOCTYPE html>
@@ -191,4 +120,236 @@
 </header>
 
 </body>
+</html> {% endcomment %}
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Navbar</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet"
+      href="{% static 'css/navbar.css' %}?v=2">
+
+</head>
+
+<body>
+
+    <!-- ================= FIRST NAVBAR ================= -->
+
+    <header class="top_navbar">
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <img src="{% static 'images/amazon_logo.png' %}"
+                 alt="Amazon Logo">
+
+        </div>
+
+
+        <!-- LOCATION -->
+
+        <div class="location_box">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+
+                <div class="location_small">
+                    Delivering to Sonipat 131021
+                </div>
+
+                <div class="location_update">
+                    Update location
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <div class="search_box">
+
+            <select>
+
+                <option>All</option>
+
+            </select>
+
+            <input
+                type="text"
+                placeholder="Search Amazon.in"
+            >
+
+            <button>
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- LANGUAGE -->
+
+        <div class="language_box">
+
+            <span class="flag">🇮🇳</span>
+
+            <span>EN</span>
+
+            <i class="fa-solid fa-caret-down"></i>
+
+        </div>
+
+
+        <!-- ACCOUNT -->
+
+        <div class="account_box">
+
+            <div class="small_text">
+                Hello, sign in
+            </div>
+
+            <div class="bold_text">
+
+                Account & Lists
+
+                <i class="fa-solid fa-caret-down"></i>
+
+            </div>
+
+        </div>
+
+
+        <!-- RETURNS -->
+
+        <div class="orders_box">
+
+            <div class="small_text">
+                Returns
+            </div>
+
+            <div class="bold_text">
+                & Orders
+            </div>
+
+        </div>
+
+
+        <!-- CART -->
+
+        <div class="cart_box">
+
+            <div class="cart_icon">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <span class="cart_number">0</span>
+
+            </div>
+
+            <span class="cart_text">
+                Cart
+            </span>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= SECOND NAVBAR ================= -->
+
+    <nav class="second_navbar">
+
+        <!-- ALL -->
+
+        <div class="nav_item all_menu">
+
+            <i class="fa-solid fa-bars"></i>
+
+            <span>All</span>
+
+        </div>
+
+
+        <div class="nav_item">
+            Amazon Pay
+        </div>
+
+        <div class="nav_item">
+            Mobiles
+        </div>
+
+        <div class="nav_item">
+            Today's Deals
+        </div>
+
+        <div class="nav_item">
+            Coupons
+        </div>
+
+        <div class="nav_item">
+            Flights
+        </div>
+
+        <div class="nav_item">
+            Electronics
+        </div>
+
+        <div class="nav_item">
+            Computers
+        </div>
+
+        <div class="nav_item">
+            New Releases
+        </div>
+
+        <div class="nav_item">
+            Bestsellers
+        </div>
+
+        <div class="nav_item">
+            Video Games
+        </div>
+
+        <div class="nav_item">
+            Fashion
+        </div>
+
+
+        <!-- FESTIVAL BANNER -->
+
+        <div class="festival_banner">
+
+            <span class="festival_icon">🪔</span>
+
+            <span>
+                Great Indian Festival | Shop early deals now
+            </span>
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </div>
+
+    </nav>
+
+
+</body>
+
 </html>
