@@ -455,3 +455,148 @@ body {
     outline: 1px solid white;
 }
 
+/* ================================
+   FOOTER
+================================ */
+
+footer {
+    width: 100%;
+}
+
+
+/* ================================
+   BACK TO TOP
+================================ */
+
+.back_to_top {
+    height: 50px;
+
+    background-color: #37475a;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.back_to_top:hover {
+    background-color: #485769;
+}
+
+
+/* ================================
+   MAIN FOOTER
+================================ */
+
+.footer_main {
+    background-color: #232f3e;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 100px;
+
+    padding: 45px 40px 55px;
+}
+
+
+/* ================================
+   FOOTER COLUMNS
+================================ */
+
+.footer_column {
+    display: flex;
+
+    flex-direction: column;
+
+    min-width: 180px;
+}
+
+.footer_column h3 {
+    color: white;
+
+    font-size: 16px;
+
+    margin-bottom: 15px;
+}
+
+.footer_column a {
+    color: #ddd;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    margin-bottom: 12px;
+}
+
+.footer_column a:hover {
+    text-decoration: underline;
+}
+
+
+/* ================================
+   FOOTER LOGO
+================================ */
+
+.footer_middle {
+    height: 90px;
+
+    background-color: #232f3e;
+
+    border-top: 1px solid #3a4553;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.footer_middle img {
+    width: 100px;
+
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* ================================
+   BOTTOM FOOTER
+================================ */
+
+.footer_bottom {
+    min-height: 80px;
+
+    background-color: #131a22;
+
+    color: #ddd;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    padding: 20px;
+
+    font-size: 12px;
+}
+
